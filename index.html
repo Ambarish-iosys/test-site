@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Board</title>
+    <link
+      rel="preload"
+      href="./fonts/Poppins-Regular.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/Poppins-Medium.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="style.css" />
+    <header>
+      <div class="wrapper">
+        <div class="header-container">
+          <div class="logo">
+            <a href="#" title="site name" aria-label="site name">
+              <img src="./images/Logo.svg" alt="Logo" title="logo" />
+            </a>
+          </div>
+          <div class="menu-container">
+            <div class="meta-nav">
+              <ul>
+                <li>
+                  <a href="#" title="Research" aria-label="Research"
+                    >Research</a
+                  >
+                </li>
+                <li>
+                  <a href="#" title="Press Room" aria-label="Press Room"
+                    >Press Room</a
+                  >
+                </li>
+              </ul>
+              <div class="search-block">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                >
+                  <path
+                    d="M7.66536 14.4999C3.8987 14.4999 0.832031 11.4333 0.832031 7.66659C0.832031 3.89992 3.8987 0.833252 7.66536 0.833252C11.432 0.833252 14.4987 3.89992 14.4987 7.66659C14.4987 11.4333 11.432 14.4999 7.66536 14.4999ZM7.66536 1.83325C4.44536 1.83325 1.83203 4.45325 1.83203 7.66659C1.83203 10.8799 4.44536 13.4999 7.66536 13.4999C10.8854 13.4999 13.4987 10.8799 13.4987 7.66659C13.4987 4.45325 10.8854 1.83325 7.66536 1.83325Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M14.6676 15.1666C14.5409 15.1666 14.4143 15.12 14.3143 15.02L12.9809 13.6866C12.7876 13.4933 12.7876 13.1733 12.9809 12.98C13.1743 12.7866 13.4943 12.7866 13.6876 12.98L15.0209 14.3133C15.2143 14.5066 15.2143 14.8266 15.0209 15.02C14.9209 15.12 14.7943 15.1666 14.6676 15.1666Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="primary-nav">
+              <ul>
+                <li>
+                  <a href="#" title="About" aria-label="About"
+                    >About
+                    <span>
+                      <img src="./images/down-arrow.svg" alt="arrow" /> </span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" title="Regions" aria-label="Regions"
+                    >Regions
+                    <span>
+                      <img src="./images/down-arrow.svg" alt="arrow" /> </span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" title="Programs" aria-label="Programs"
+                    >Programs
+                    <span>
+                      <img src="./images/down-arrow.svg" alt="arrow" /> </span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" title="Resources" aria-label="Resources"
+                    >Resources
+                    <span>
+                      <img src="./images/down-arrow.svg" alt="arrow" /> </span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" title="News & Events" aria-label="News & Events"
+                    >News & Events
+                    <span>
+                      <img src="./images/down-arrow.svg" alt="arrow" /> </span
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="hamburger hidden">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div
+        class="hero-banner"
+        style="background-image: url('./images/Hero_banner.png')"
+      >
+        <div class="wrapper">
+          <div class="hero-content">
+            <h1>Board</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
+              massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
+              fringilla, mattis ligula consectetur, ultrices mauris. Maecenas
+              vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum
+              auctor ornare leo, non suscipit magna interdum eu.
+            </p>
+          </div>
+        </div>
+      </div>
+      <section class="card--wrapper">
+        <div class="wrapper">
+          <div class="card-container">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="./images/image-2.png"
+                  width="128"
+                  height="128"
+                  alt="Sarah Wilson"
+                  title="Sarah Wilson"
+                />
+              </div>
+              <div class="card-body">
+                <h2>Sarah Wilson</h2>
+                <span>Chair</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="./images/image-1.png"
+                  width="128"
+                  height="128"
+                  alt="Chandler Ralph"
+                  title="Chandler Ralph"
+                />
+              </div>
+              <div class="card-body">
+                <h2>Chandler Ralph</h2>
+                <span>Vice Chair</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="./images/image-4.png"
+                  width="128"
+                  height="128"
+                  alt="Marc Galvin"
+                  title="Marc Galvin"
+                />
+              </div>
+              <div class="card-body">
+                <h2>Marc Galvin</h2>
+                <span>Treasurer</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="./images/image-3.png"
+                  width="128"
+                  height="128"
+                  alt="Marc Galvin"
+                  title="Marc Galvin"
+                />
+              </div>
+              <div class="card-body">
+                <h2>Marc Galvin</h2>
+                <span>Treasurer</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="./images/image-2.png"
+                  width="128"
+                  height="128"
+                  alt="Sarah Wilson"
+                  title="Sarah Wilson"
+                />
+              </div>
+              <div class="card-body">
+                <h2>Sarah Wilson</h2>
+                <span>Chair</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="./images/image-1.png"
+                  width="128"
+                  height="128"
+                  alt="Chandler Ralph"
+                  title="Chandler Ralph"
+                />
+              </div>
+              <div class="card-body">
+                <h2>Chandler Ralph</h2>
+                <span>Vice Chair</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="./images/image-4.png"
+                  width="128"
+                  height="128"
+                  alt="Marc Galvin"
+                  title="Marc Galvin"
+                />
+              </div>
+              <div class="card-body">
+                <h2>Marc Galvin</h2>
+                <span>Treasurer</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="./images/image-3.png"
+                  width="128"
+                  height="128"
+                  alt="Marc Galvin"
+                  title="Marc Galvin"
+                />
+              </div>
+              <div class="card-body">
+                <h2>Marc Galvin</h2>
+                <span>Treasurer</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="./images/image-2.png"
+                  width="128"
+                  height="128"
+                  alt="Sarah Wilson"
+                  title="Sarah Wilson"
+                />
+              </div>
+              <div class="card-body">
+                <h2>Sarah Wilson</h2>
+                <span>Chair</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="./images/image-1.png"
+                  width="128"
+                  height="128"
+                  alt="Chandler Ralph"
+                  title="Chandler Ralph"
+                />
+              </div>
+              <div class="card-body">
+                <h2>Chandler Ralph</h2>
+                <span>Vice Chair</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="./images/image-4.png"
+                  width="128"
+                  height="128"
+                  alt="Marc Galvin"
+                  title="Marc Galvin"
+                />
+              </div>
+              <div class="card-body">
+                <h2>Marc Galvin</h2>
+                <span>Treasurer</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="./images/image-3.png"
+                  width="128"
+                  height="128"
+                  alt="Marc Galvin"
+                  title="Marc Galvin"
+                />
+              </div>
+              <div class="card-body">
+                <h2>Marc Galvin</h2>
+                <span>Treasurer</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-top">
+        <div class="wrapper">
+          <div class="footer-logo">
+            <img src="./images/footer_logo.png" alt="footer logo" srcset="" />
+          </div>
+          <div class="footer-menu">
+            <ul>
+              <li><a href="" title="About" aria-label="About">About</a></li>
+              <li>
+                <a href="" title="Regions" aria-label="Regions">Regions</a>
+              </li>
+              <li>
+                <a href="" title="Programs" aria-label="Programs">Programs</a>
+              </li>
+              <li>
+                <a href="" title="Resources" aria-label="Resources"
+                  >Resources</a
+                >
+              </li>
+              <li>
+                <a href="" title="News & Events" aria-label="News & Events"
+                  >News & Events</a
+                >
+              </li>
+              <li>
+                <a href="" title="Research" aria-label="Research">Research</a>
+              </li>
+              <li>
+                <a href="" title="Press Room" aria-label="Press Room"
+                  >Press Room</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="wrapper">
+          <div class="footer-link">
+            <ul>
+              <li>© 2022 Oregon Tourism Commission</li>
+              <li>2608 Main St, Lake Placid, NY 12946</li>
+              <li>
+                <a
+                  href="#"
+                  title="info@roostadk.com"
+                  aria-label="info@roostadk.com"
+                  >info@roostadk.com</a
+                >
+              </li>
+              <li>
+                <a
+                  href="tel:518-523-2445"
+                  title="518-523-2445"
+                  aria-label="518-523-2445"
+                  >518-523-2445</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#" title="facebook" aria-label="facebook">
+                  <img
+                    src="./images/facebook.svg"
+                    alt="facebook"
+                    title="facebook"
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a href="#" title="instagram" aria-label="instagram">
+                  <img
+                    src="./images/instagram.svg"
+                    alt="instagram"
+                    title="instagram"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="twitter" aria-label="twitter">
+                  <img
+                    src="./images/twitter.svg"
+                    alt="twitter"
+                    title="twitter"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      let ham = document.querySelector(".hamburger ");
+      let menu = document.querySelector(".primary-nav");
+      ham.addEventListener("click", function () {
+        menu.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
